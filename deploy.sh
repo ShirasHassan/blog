@@ -1,8 +1,11 @@
 #!/bin/bash
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo "cooooooool"
 cd public
+echo "cooooooool 6666"
 if [ -n "$GITHUB_AUTH_SECRET" ]
 then
+    echo "cooooooool888888"
     touch ~/.git-credentials
     chmod 0600 ~/.git-credentials
     echo $GITHUB_AUTH_SECRET > ~/.git-credentials
