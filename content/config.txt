@@ -1,4 +1,0 @@
-baseURL = "https://shirashassan.github.io/"
-languageCode = "en-us"
-title = "My Blog"
-theme = "kiss"
