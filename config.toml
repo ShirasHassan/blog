@@ -1,4 +1,5 @@
 baseURL = "https://shirashassan.github.io/"
 languageCode = "en-us"
-title = "My Blog"
+title = "Shiras"
 theme = "kiss"
+disqusShortname = "shirashassan-com"
