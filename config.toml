@@ -45,3 +45,29 @@ platforms = ["github","facebook","twitter","instagram","email","codepen","linked
 
 [taxonomies]
 tag ="tags"
+category="categories"
+
+[params.sections_left]
+"/" = "Home"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about"
+    weight = -110
