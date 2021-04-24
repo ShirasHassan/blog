@@ -14,7 +14,7 @@ authorEmail = "shiras.hassan@gmail.com" # Author email
 customCSS = ["css/custom.css"]
 
 [params.info]
-adsense = "" # Adsense ID (ID only, without ca-pub-)
+adsense = "8890314491021718" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
 homeTitle = "Home" # Title for home page
 related = true # Includes related articles at the bottom of the article
